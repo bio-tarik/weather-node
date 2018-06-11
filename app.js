@@ -19,6 +19,13 @@ geocode.geocodeAddress(argv.address, (errorMessage, result) => {
     if (errorMessage) {
         console.log(errorMessage);
     } else {
-        weather.getWeather(result.latitude, result.longitude);
+        console.log(result.address);
+        weather.getWeather(result.latitude, result.longitude, (errorMessage, weatherResults) => {
+            if (errorMessage) {
+                console.log(errorMessage);
+            } else {
+                console.log(`It's currently ${weatherResults.temperature} C. It feels like ${weatherResults.apparentTemperature} C.`);
+            }
+        });
     }
 });
