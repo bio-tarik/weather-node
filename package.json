@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/bio-tarik/weather-node#readme",
   "dependencies": {
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "eslint-config-google": "^0.9.1",
