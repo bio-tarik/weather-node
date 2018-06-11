@@ -1,0 +1,30 @@
+{
+  "name": "weather-node",
+  "version": "1.0.0",
+  "description": "A weather-app being developed along with this great tutorial: https://www.udemy.com/the-complete-nodejs-developer-course-2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bio-tarik/weather-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bio-tarik/weather-node/issues"
+  },
+  "homepage": "https://github.com/bio-tarik/weather-node#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
